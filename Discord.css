@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.big-div
+{
+    display: flex;
+   
+    
+}
+.div1
+{ padding: 10px;
+    background-color: rgb(21, 18, 18);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.image
+{
+    height: 60px;
+    width: 60px;
+
+    background-size: cover;
+}
+.div2
+{
+    display: flex;
+    flex-direction: column;
+    height: 920px;
+    width:2500px;
+    background-color: rgb(41, 40, 39);
+}
+.search
+{ display: flex;
+   border-bottom: 2px solid white;
+    height: 40px;
+    align-items: center;
+}
+
+.search input{
+   margin-left: 30px;
+    width: 150px;
+    height: 20px;
+    font-size: 10px;
+    background-color: rgb(0, 0, 0);
+    color: gray;
+}
+.div2 .search-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.navbar
+{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.search-content
+{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-evenly; */
+    color: white;
+    height: 400px;
+    padding: 10px;
+   
+}
+.search-content span{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.search-content i{
+    margin-right: 10px;
+    
+}
+#direct i
+{
+    margin-left: 20px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 40px;
+    background-color:rgb(38, 34, 29) ;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+   .navbar1
+   {
+    height: 30px;
+    display: flex;
+   }
+    #add
+    {
+        background-color: greenyellow;
+        border-radius: 2px;
+    }
+   
+    .navbar span{
+        padding: 10px;
+    }
+.navbar a{
+    text-decoration: none;
+    color: rgb(112, 110, 108);
+padding: 10px;}
+
+
+
+.last1
+{
+    background-color:rgb(40, 39, 39);
+    width: 300px;
+    color: rgb(152, 140, 140);
+    height: 40px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+   
+display: flex;
+justify-content: end;
+gap: 40px;
+align-items: center;
+padding-right: 20px;
+}
+
+.last2
+{
+    height: 880px;
+    background-color: rgb(58, 56, 56);
+}
+.last{
+    font-size: 14px;
+    color: rgb(171, 164, 164);
+    
+}
+.last2 
+{
+padding-left: 15px;
+padding-top: 20px;
+height: 858px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.lastmain
+{ margin-top: 20px;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a:hover
+{
+    border: 2px solid white;
+}
+.search-content div:hover{
+    border: 2px solid white;
+}
+.div3
+{
+    width: 800px;
+}
