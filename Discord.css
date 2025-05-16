@@ -35,16 +35,22 @@
 { display: flex;
    border-bottom: 2px solid white;
     height: 40px;
+   
     align-items: center;
+    justify-content: center;
 }
 
 .search input{
-   margin-left: 30px;
-    width: 150px;
-    height: 20px;
+   text-align: center;
+ 
+    width: 180px;
+    height: 25px;
     font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     background-color: rgb(0, 0, 0);
-    color: gray;
+   
 }
 .div2 .search-content
 {
@@ -62,14 +68,16 @@
     flex-direction: column; */
     /* justify-content: space-evenly; */
     color: white;
-    height: 400px;
+    height: 250px;
     padding: 10px;
+   
    
 }
 .search-content span{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
+
 .search-content i{
     margin-right: 10px;
     
@@ -82,7 +90,9 @@
 {
     display: flex;
     align-items: center;
-    gap: 30px;
+
+
+
     height: 40px;
     background-color:rgb(38, 34, 29) ;
     font-size:12px;
@@ -92,6 +102,7 @@
    {
     height: 30px;
     display: flex;
+    gap: 20px;
    }
     #add
     {
@@ -154,11 +165,19 @@ font-family: Arial, Helvetica, sans-serif;
 a:hover
 {
     border: 2px solid white;
+     border-radius: 10px;
 }
 .search-content div:hover{
     border: 2px solid white;
+    border-radius: 4px;
 }
 .div3
 {
     width: 800px;
+}
+
+#direct
+{
+    display: flex;
+    justify-content: space-between;
 }
